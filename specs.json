@@ -1,0 +1,17 @@
+{
+    "browser": "chrome",
+    "login_info": [
+        {
+            "username": "testing008@gmail.com",
+            "password": "notARealPassword"
+        },
+        {
+            "username": "testing006@gmail.com",
+            "password": "notARealPassword"
+        }
+    ],
+    "specs": [
+        "addUser",    
+        "saveRecipe"
+    ]
+}

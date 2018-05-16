@@ -1,0 +1,14 @@
+FROM selenium/node-firefox:latest
+
+USER root
+
+RUN apt-get update -q &&\
+    apt-get install -qyy \
+    git \
+    make \
+    npm 
+
+WORKDIR /assignment
+COPY . .
+RUN make build
+ENTRYPOINT [ "node","index.js","specs.json" ]

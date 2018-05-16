@@ -1,0 +1,27 @@
+{
+  "name": "nytimes-set-assignment",
+  "version": "1.0.0",
+  "description": "Please see the following challenge which is designed to assess a candidate on various skills such as development skills, test framework design principles, documentation, code quality, etc.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmetthitz/nyt-assignment.git"
+  },
+  "author": "Emmett Hitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmetthitz/nyt-assignment/issues"
+  },
+  "homepage": "https://github.com/emmetthitz/nyt-assignment#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "jquery": "^3.3.1",
+    "n": "^2.1.11",
+    "npm": "^6.0.1",
+    "random-words": "^1.1.0",
+    "selenium-standalone": "^6.14.1",
+    "striptags": "^3.1.1",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  }
+}
